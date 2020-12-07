@@ -18,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView imgvMain = findViewById(R.id.imgv_main);
         GalleryAdapter adapter = new GalleryAdapter(this, imgvMain);
         gallery.setAdapter(adapter);
+
+
     }
 }
